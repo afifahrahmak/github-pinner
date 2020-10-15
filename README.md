@@ -19,7 +19,7 @@ Simply set the html **data** field with a GitHub profile, repository, or reposit
 ```
 
 ## Preview
-<p align="left"><img src=".readme/profile-example.png" width="550px"><br>
+<p align="left"><img src=".readme/profile-example.png" width="231px"><br>
 <img src=".readme/repo-example.png" width="1000px"></p>
 
 ## TODO
