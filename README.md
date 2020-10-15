@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg">
 </a>
   <img src="https://img.shields.io/badge/language-HTML5-red.svg">
-  <img src="https://img.shields.io/github/issues/mackboudreau/GitHubPinner.svg">
+  <img src="https://img.shields.io/github/issues/afifahrahmak/GitHubPinner.svg">
 </p>
 
 
@@ -15,7 +15,7 @@ Do you want to showcase a github repository or profile on your website? Instead 
 Simply set the html **data** field with a GitHub profile, repository, or repositories tab url...
 ```html
 <script src="d29mk5socxaj4o.cloudfront.net/GitHubPinner.js"></script>
-<div data="https://github.com/mackboudreau?tab=repositories" class="github-pinner" style="visibility: hidden;"></div>
+<div data="https://github.com/afifahrahmak?tab=repositories" class="github-pinner" style="visibility: hidden;"></div>
 ```
 
 ## Preview
