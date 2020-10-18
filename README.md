@@ -20,14 +20,15 @@ Simply set the html **data** field with a GitHub profile, repository, or reposit
 
 ## Preview
 <p align="left">
-<b>orginal one from Mack [from this]</b>
+<b>Orginal one~ from Mack [from this]</b>
 <br>
-<img src=".readme/profile-example-ori.png" width="350px"><br>
-<img src=".readme/repo-example-ori.png" width="500px">
+<img src=".readme/profile-example-ori.png" width="500px"><br>
+<img src=".readme/repo-example-ori.png" width="700px">
 <br>
-<b>updated version from me [to this]</b>
 <br>
-<img src=".readme/all-example-afi.png" width="500px"><br>
+<b>Updated version~ from me [to this]</b>
+<br>
+<img src=".readme/all-example-afi.png" width="700px"><br>
 <br>
 </p>
 
