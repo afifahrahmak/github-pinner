@@ -19,8 +19,17 @@ Simply set the html **data** field with a GitHub profile, repository, or reposit
 ```
 
 ## Preview
-<p align="left"><img src=".readme/profile-example.png" width="250px"><br>
-<img src=".readme/repo-example.png" width="1000px"></p>
+<p align="left">
+<b>orginal one from Mack [from this]</b>
+<br>
+<img src=".readme/profile-example-ori.png" width="350px"><br>
+<img src=".readme/repo-example-ori.png" width="500px">
+<br>
+<b>updated version from me [to this]</b>
+<br>
+<img src=".readme/all-example-afi.png" width="500px"><br>
+<br>
+</p>
 
 ## TODO
 * Implement functionality for a "All Repos" element
