@@ -5,7 +5,12 @@ body {
 }
 
 .github-pinner {
+  /* background: linear-gradient(180deg, rgba(255,255,255,0) 10%, rgba(255,255,255) 100%), url(../asset/backlogo.jpg); */
   background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   border: 1px solid #e1e4e8;
   padding: 15px;
   border-radius: 5px;
@@ -14,10 +19,13 @@ body {
 .github-pinner.gp-profile {
   width: auto ;
   height: auto;
+  margin: 20px;
 }
 
 .github-pinner.gp-repo {
   width: 300px;
+  margin: 20px;
+
 }
 
 .github-pinner.gp-all {
@@ -44,14 +52,17 @@ body {
   padding: 3px 6px 6px 3px!important;
   /* padding: 6px!important; */
   position: absolute;
-  bottom: 125;
-  left: 93%;
+  bottom: 135px;
+  left: 98%;
   z-index: 2;
-  width: 16px;
-  height: 16px;
+  width: 27px;
+  height: 27px;
   margin-bottom: 32px;
   margin-left: -40px;
   text-align: center;
+}
+.github-pinner #gp-container-profile #g-emoji:hover {
+  cursor: context-menu;
 }
 .github-pinner #gp-container-profile #g-emoji .tooltiptext {
   font-size: 10px;
@@ -97,6 +108,8 @@ body {
   overflow: auto;
   margin-left: 10px;
   padding-top: 16px!important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: left;
 }
 
 .github-pinner #gp-container-profile > #gp-information > .gp-element {
@@ -116,6 +129,8 @@ body {
 .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-name {
   font-weight: 600;
   font-size: 18px;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .github-pinner #gp-container-profile > #gp-information .gp-link > .gp-user {
@@ -125,12 +140,16 @@ body {
   line-height: 24px;
   font-style: normal;
   font-weight: 250;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .github-pinner #gp-container-profile > #gp-information > .gp-bio {
   padding-top: 10px;
   font-size: 10.5px;
   color: #24192e;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .github-pinner #gp-container-profile .gp-btn:hover {
@@ -142,7 +161,7 @@ body {
 
 .github-pinner #gp-container-profile .gp-btn {
     margin-top: 6px;
-    width: 30px;
+    width: 50px;
     float: right;
     text-decoration: none;
     text-align: center;
@@ -166,20 +185,23 @@ body {
 }
 
 .github-pinner #gp-container-profile > .gp-stats {
-  display: block;
-  margin-top: 8px;
+  display:inline-block;
+  margin: 8px 8px 8px 0px;
   width: 200px;
+  text-align: left !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .github-pinner #gp-container-profile > .gp-stats .gp-stat {
   text-decoration: none;
-  width: 35px;
+  width: 45px;
   /* border-right: 1px solid #eaecef; */
   color: #586069;
   cursor: pointer;
   display: inline-block;
-  padding: 0 6px;
+  padding: 0 6px 0px 0px;
   margin-top: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .github-pinner #gp-container-profile > .gp-stats .gp-stat:last-of-type {
@@ -194,6 +216,7 @@ body {
   color: #586069;
   font-size: 10px;
   text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   display: block;
 }
 .github-pinner #gp-container-profile > .gp-stats .gp-stat-desc {
@@ -201,19 +224,36 @@ body {
   font-size: 8px;
   text-align: center;
   display: block;
+  text-transform: lowercase !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 /* MARK: - Repo Styling */
 .github-pinner #gp-container-repo {
   position: relative;
   height: inherit;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.github-pinner #gp-container-repo .gp-titlerepo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.txt-gray{
+  color: #7d8691 !important;
 }
 
 .github-pinner #gp-container-repo .gp-title {
   text-decoration: none;
   color: #0366d6;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600 !important;
+  text-align: left !important;
+  margin-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .github-pinner #gp-container-repo .gp-title:hover {
@@ -223,17 +263,27 @@ body {
 .github-pinner #gp-container-repo .gp-desc {
   margin-top: 5px;
   color: #586069 !important;
-  font-size: 12px !important;
+  font-size: 11px !important;
+  text-align: left !important;
+  margin-bottom: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.github-pinner #gp-container-repo #gp-stats {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .github-pinner #gp-container-repo #gp-stats .gp-stat {
   text-decoration: none;
-  color: #586069 !important;
-  font-size: 12px !important;
+  color: #727880 !important;
+  font-size: 10px !important;
   display: inline-block;
   margin: 0 0;
-  margin-left: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-right: 16px;
 }
+
 
 .github-pinner #gp-container-repo #gp-stats .gp-stat:first-child {
   margin-left: 0px;
@@ -242,8 +292,11 @@ body {
 .github-pinner #gp-container-repo #gp-stats .gp-stat .gp-octicon {
   vertical-align: text-bottom;
   display: inline-block;
+  left: 0 !important;
   fill: currentColor;
   margin-right: 3px;
+  color: #586069 !important;
+
 }
 
 .github-pinner #gp-container-repo #gp-stats .gp-stat .gp-lang {
@@ -251,8 +304,8 @@ body {
   position: relative;
   top: 2px;
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   margin-right: 5px;
 }
@@ -328,9 +381,4 @@ body {
   height: 45vh;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.template {
-  display: inline-flex;
-
 }
