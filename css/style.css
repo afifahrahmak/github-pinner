@@ -382,3 +382,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.github-template {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-right: -120px;
+}
